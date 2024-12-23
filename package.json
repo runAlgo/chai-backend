@@ -5,11 +5,17 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node --watch src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "author": "chai aur code",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^3.1.9",
     "prettier": "^3.4.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.1"
   }
 }
